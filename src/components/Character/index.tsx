@@ -1,6 +1,6 @@
 import * as C from './styles'
 
-import { CharacterType } from '../../types/chracterTypes'
+import { CharacterType } from '../../types/ChracterTypes'
 
 interface Props{
     x:number,
