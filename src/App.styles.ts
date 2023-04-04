@@ -6,6 +6,22 @@ export const Container = styled.div`
     color: #fff;
 
     min-height: 100vh;
+
+    >button{
+        border: 0;
+
+        padding: 0.5rem;
+
+        margin: 1rem .5rem 0 1rem;
+
+        cursor: pointer;
+
+        transition: all ease .2s;
+
+        &:hover{
+           opacity: .7;
+        }
+    }
 `
 
 export const Map = styled.div`
